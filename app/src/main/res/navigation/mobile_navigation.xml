@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.smriti.musicalinstrumentapp.ui.home.HomeFragment"
+        android:label="@string/title_shop"
+        tools:layout="@layout/home_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.smriti.musicalinstrumentapp.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/dashboard_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.smriti.musicalinstrumentapp.ui.notifications.NotificationsFragment"
+        android:label="@string/title_cart"
+        tools:layout="@layout/notifications_fragment" />
+    <activity
+        android:id="@+id/navigation_maps"
+        android:name="com.smriti.musicalinstrumentapp.MapsActivity"
+        android:label="@string/title_location"
+        tools:layout="@layout/activity_maps">
+    </activity>
+</navigation>

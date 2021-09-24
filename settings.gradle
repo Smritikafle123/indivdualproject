@@ -1,0 +1,3 @@
+include ':instrumentos'
+include ':app'
+rootProject.name = "MusicalInstrumentApp"

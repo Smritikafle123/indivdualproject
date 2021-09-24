@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#094664</color>
+    <color name="colorPrimaryDark">#01324A</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#000000</color>
+    <color name="textColor">#6e6e6e</color>
+    <color name="editTextBG">#DADADA</color>
+    <color name ="btnFacebook">#2A608A</color>
+    <color name ="btnGoogle">#20AB2B</color>
+    <color name="dashboardPrimary">#673AB7</color>
+    <color name="dashboardPrimaryDark">#151515</color>
+    <color name="dashboardAccent">#FF5252</color>
+    <color name="dashboardPrimaryText">#212121</color>
+    <color name="dashboardBackground">#ECECEC</color>
+    <color name="productback">#D4EAE0</color>
+    <color name="price">#5731B3</color>
+    <color name="linear">#8A7000</color>
+    <color name="highlight">#F894FD</color>
+    <color name="yellow">#FEF286</color>
+
+
+
+
+
+</resources>
